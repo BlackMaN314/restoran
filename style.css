@@ -1,76 +1,80 @@
 body {
-    margin: 0px;
-.open-sans-<uniquifier> {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-"wdth" 100;
+  margin: 0px;
+  .open-sans-<uniquifier > {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
   }
 }
 .container {
-    margin: 0px 166px;
+  margin: 0px 166px;
 }
 
 .header {
-    background-image: url(hero\ image.png);
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(hero\ image.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .headerLine {
-    padding-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-.nav-item{
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 14px;
+.nav-item {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
 
-    margin-right: 25px;
+  margin-right: 25px;
 
-    transition: color 0.3 linear;
+  transition: color 0.3 linear;
 }
 .nav-item:hover {
-    color: red;
+  color: red;
 }
 .cart {
-    position: relative;
-    border-right: 1px solid #FFFFFF;
-    padding-right: 10px;
-    height: 50px;
+  position: relative;
+  border-right: 1px solid #ffffff;
+  padding-right: 10px;
+  height: 50px;
 }
 .cart-img {
-    position: absolute;
-    top: 18px;
-    right: 7px;
+  position: absolute;
+  top: 18px;
+  right: 7px;
 }
 .num {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
 }
-
+.phone {
+  display: flex;
+}
 .phone-text {
-    font-size: 14px;
-    font-weight: 400;
-    color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
 }
 .phone-holder {
-    display: flex;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.phone-img {
+  display: flex;
+  align-items: center;
 }
 .button {
-    background-color: #FF7400;
-    text-decoration: none;
-    padding: 14px 18px;
-    font-weight: 700;
-    color: #fff
+  background-color: #ff7400;
+  text-decoration: none;
+  padding: 14px 18px;
+  font-weight: 700;
+  color: #fff;
 }
-
-
